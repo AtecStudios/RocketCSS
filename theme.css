@@ -116,13 +116,13 @@ input:focus{
 }
 
 .red{
-    color: red;
+    color: #ffa2a2;
     text-shadow: 0px 0px 15px rgba(255, 0, 0, 0.92);
     
 }
 
 .blue{
-    color: blue;
+    color: #bdbdfc;
     text-shadow: 0px 0px 15px rgba(0, 69, 255, 0.92);
 }
 
@@ -146,6 +146,7 @@ input:focus{
     padding-right: 1vw;
     float:right;
     margin-left: 1vw;
+    
     margin-right: 1vw;
 }
 
@@ -163,14 +164,45 @@ input:focus{
 
 .score-red span{
     text-align: left;
-    font-family: PuristaBold;
+    font-family: PuristaBoldItalic;
     color: red;
     text-shadow: 0px 0px 15px rgba(255, 0, 0, 0.92);
 }
 .score-blue span{
-    font-family: PuristaBold;
+    font-family: PuristaBoldItalic;
     text-align: right;
     color: #a2a2ff;
     text-shadow: 0px 0px 15px rgba(134, 174, 250, 0.92);
 }
 
+.team{
+    font-size: 1.5em;
+    font-family: PuristaMediumItalic;
+}
+
+.vs{
+    font-size: 1em;
+    margin: 5px;
+    top: -150
+        px;
+    font-family: PuristaThinItalic;
+}
+
+.status{
+    font-size: .5em;
+    margin: 0;
+    color: #00d800;
+    text-shadow: 0px 0px 15px rgba(0, 255, 10, 0.79);
+}
+
+.bestof{
+    font-size: .7em;
+    margin: 0;
+    color: #e2ff00;
+    text-shadow: 0px 0px 15px rgba(0, 255, 10, 0.79);
+}
+
+.score-title{
+    font-size: .5em;
+    margin-bottom: 1vh
+}
