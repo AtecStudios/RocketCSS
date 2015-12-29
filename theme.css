@@ -58,9 +58,8 @@ button{
     padding-right: 2vh;
     margin-top: 1vh;
     color: white;
-    opacity: 0.7;
+
     background-color: rgba(10, 10, 10, 0.6);
-    opacity: 0.8;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.23);
     text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.67);
 }
@@ -72,7 +71,7 @@ button:hover{
 button:active{
     box-shadow: 0px 0px 150px rgba(0, 118, 255, 1);
 }
-input{
+input[type="text"]{
     color: white;
     padding: 5px;
     margin: 5px;
@@ -87,8 +86,6 @@ input{
 input:focus{
      box-shadow: 0px 0px 100px rgba(0, 118, 255, 0.72);
 }
-
-
 .center{
     text-align: center;
     
@@ -137,18 +134,40 @@ input:focus{
     padding: 1vh;
     color: white;
     font-size: 3em;
-    
-}
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.92);
+}   
 
 .score-red{
+    background-color: rgba(255, 0, 0, 0.28);
+    border: solid 2px rgba(212, 0, 0, 0.76);
+    border-radius: 10px;
+    padding-bottom: .7vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    float:right;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.score-blue{
+    background-color: rgba(0, 78, 255, 0.28);
+    border: solid 2px rgba(3, 10, 186, 0.76);
+    border-radius: 10px;
+    padding-bottom: .7vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    float:left;
+     margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.score-red span{
     text-align: left;
-    padding: 1vw;
     color: red;
     text-shadow: 0px 0px 15px rgba(255, 0, 0, 0.92);
 }
-.score-blue{
+.score-blue span{
     text-align: right;
-    padding: 2vw;
     color: blue;
     text-shadow: 0px 0px 15px rgba(0, 69, 255, 0.92);
 }
