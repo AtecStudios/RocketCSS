@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'PuristaBold';
+    src: url('fonts/PuristaBold.otf')
+}
+@font-face {
+    font-family: 'PuristaBoldItalic';
+    src: url('fonts/PuristaBoldItalic.otf')
+}
+
+@font-face {
+    font-family: 'PuristaLight';
+    src: url('fonts/PuristaLight.otf')
+}
+@font-face {
+    font-family: 'PuristaLightItalic';
+    src: url('fonts/PuristaLightItalic.otf')
+}
+@font-face {
+    font-family: 'PuristaMedium';
+    src: url('fonts/PuristaMedium.otf')
+}
+@font-face {
+    font-family: 'PuristaMediumItalic';
+    src: url('fonts/PuristaMediumItalic.otf')
+}
+@font-face {
+    font-family: 'PuristaSemiboldItalic';
+    src: url('fonts/PuristaSemiboldItalic.otf')
+}
+@font-face {
+    font-family: 'PuristaThin';
+    src: url('fonts/PuristaThin.otf')
+}
+@font-face {
+    font-family: 'PuristaThinItalic';
+    src: url('fonts/PuristaThinItalic.otf')
+}
+
+body{
+    background-image: url("http://amateurleaguecarball.com/assets/imgs/bg.jpg");
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+    font-family: PuristaLight;
+        
+}
+
+button{
+    transform: skewX(-20deg);
+    border-radius: 5px;
+    border: solid 2px rgba(0, 0, 0, 0);
+    font-family: PuristaLight;
+    font-size: 1.2em;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin-top: 1vh;
+    color: white;
+    opacity: 0.7;
+    background-color: rgba(10, 10, 10, 0.6);
+    opacity: 0.8;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.23);
+}
+button:hover{
+    border: solid 2px rgba(0, 137, 255, 0.56);
+    color: #3131ff;
+    opacity: 0.7;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px rgba(0, 118, 255, 0.72);
+}
+button:active{
+    box-shadow: 0px 0px 100px rgba(0, 118, 255, 0.8);
+}
+input{
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgba(10, 10, 10, 0.4);
+    border: solid 2px rgba(10, 10, 10, 0.46);
+    font-family: PuristaLight;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.23) ;
+   
+}
+input:focus{
+     box-shadow: 0px 0px 100px rgba(0, 118, 255, 0.72);
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.23);
+}
+
+
+.center{
+    text-align: center;
+    
+}
+
+.panel{
+    display: inline-block;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    border-radius: 10px;
+    background-color: rgba(10, 10, 10, 0.6);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.23);
+}
+
+.orange{
+    color: orange;
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.95);
+}
+
+.white{
+    color: white;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.score-panel{
+    border-radius: 10px;
+    border: solid 3px rgba(255, 255, 255, 0.81);
+    background-color: rgba(0, 0, 0, 0.42);
+    display: inline-block;
+    padding: 1vh;
+    color: white;
+    font-size: 3em;
+    
+}
+
+.score-red{
+    text-align: left;
+    padding: 2vw;
+}
+.score-blue{
+    text-align: right;
+    padding: 2vw;
+}
+
