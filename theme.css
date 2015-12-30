@@ -68,6 +68,7 @@ header .score-panel{
 button{
     transform: skewX(-20deg);
     border-radius: 5px;
+    cursor: pointer;
     border: solid 2px rgba(0, 0, 0, 0);
     font-family: PuristaLight;
     font-size: 1.2em;
