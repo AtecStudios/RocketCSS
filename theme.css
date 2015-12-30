@@ -37,15 +37,7 @@
 }
 
 body{
-<<<<<<< HEAD
-    background-image: url("http://amateurleaguecarball.com/assets/imgs/bg.jpg");
-=======
     background: url("http://amateurleaguecarball.com/assets/imgs/bg.jpg") no-repeat center center fixed; 
->>>>>>> origin/master
-    -webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
     font-family: PuristaLight;
     padding: 0px;
     margin: 0px;
