@@ -167,8 +167,43 @@ input[type="text"] {
 }
 
 table {
+    width: 100%;
+    color: #EAEAEA;
     margin-top: 2vh;
+    border: solid 2px;
+    padding-top: .5vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
     margin-bottom: 2vh;
+    border-radius: 10px;
+    padding-bottom: .5vh;
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.56);
+    & tr {
+        border-bottom: solid 2px;
+    }
+}
+
+a {
+    color: #FFF;
+    cursor: pointer;
+    border: solid 1px;
+    border-radius: 5px;
+    padding-top: .05vh;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    padding-bottom: .4vh;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.95);
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.56);
+    &:hover {
+        color: #BDBDFC;
+        text-shadow: 0 0 15px rgba(0, 69, 255, 0.92);
+        box-shadow: 1px 1px 1px rgba(0, 10, 255, 0.56);
+    }
+    &:active{
+        color: #FF0000;
+        text-shadow: 0 0 15px rgba(0, 69, 255, 0.92);
+        box-shadow: 1px 1px 1px rgba(255, 0, 0, 0.56);
+    }
 }
 
 .grid-container {
@@ -176,3 +211,57 @@ table {
 }
 
 /* Clearfix Hack */
+.row:before, 
+    .row:after {
+        content:"";
+        display: table ;
+        clear:both;
+}
+
+[class*='col-'] {
+    float: left; 
+    min-height: 1px; 
+    width: 16.66%; 
+    /*-- our gutter -- */
+    margin: .49vw; 
+}
+
+.col-1{ width: 15.66%; }
+.col-2{ width: 32.33%; }
+.col-3{ width: 49%;    }
+.col-4{ width: 65.66%; }
+.col-5{ width: 82.33%; }
+.col-6{ width: 99%;   }
+
+/*-- some extra column content styling --*/
+[class*='col-'] > p {
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+}
+
+@media all and (max-width:800px){
+    .col-1{ width: 33.33%;    }
+    .col-2{ width: 50%;        }
+    .col-3{ width: 83.33%;    }
+    .col-4{ width: 100%;    }
+    .col-5{ width: 100%;    }
+    .col-6{ width: 100%;      }
+
+    .row .col-2:last-of-type{
+        width: 100%; 
+    }
+
+    .row .col-5 ~ .col-1{
+        width: 100%; 
+    }
+}
+
+@media all and (max-width:650px){
+    .col-1{ width: 50%;        }
+    .col-2{ width: 100%;    }
+    .col-3{ width: 100%;    }
+    .col-4{ width: 100%;    }
+    .col-5{ width: 100%;    }
+    .col-6{ width: 100%;      }
+}
