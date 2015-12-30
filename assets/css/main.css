@@ -169,6 +169,11 @@ a {
     text-shadow: 0 0 15px rgba(0, 69, 255, 0.92);
     box-shadow: 1px 1px 1px rgba(255, 0, 0, 0.56); }
 
+ul {
+  margin: 0;
+  width: 100%;
+  padding: 1px; }
+
 .grid-container {
   width: 100%; }
 
