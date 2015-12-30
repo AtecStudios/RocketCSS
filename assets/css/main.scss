@@ -64,6 +64,10 @@ header {
         background-color: rgba(0, 0, 0, 0.42);
         border: solid 3px rgba(255, 255, 255, 0.81);
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.92);
+        & .team {
+            font-size: 1.5em;
+            font-family: PuristaThinItalic;
+        }
         & .score-orange {
             float: right;
             margin-left: 1vw;
@@ -210,6 +214,134 @@ ul {
     margin: 0;
     width: 100%;
     padding: 1px;
+    position: relative;
+    & li {
+        width: 100%;
+        padding: 5px;
+        font-size: 2em;
+        color: #AFAFAF;
+        list-style: none;
+        text-align: left;
+        margin-bottom: 1vh;
+        border-radius: 5px;
+        display: inline-block;
+        border: solid 1px #404040;
+        background-color: rgba(10, 10, 10, 0.6);
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.65);
+        & span {
+            top: -.3vh;
+            padding-top: 1vh;
+            padding-left: 1vw;
+            padding-right: 1vh;
+            padding-right: 1vw;
+            position: relative;
+        }
+    }
+}
+
+.team-listing {
+    & .team-image {
+        top: .3vh;
+        color: #9A82FF;
+        margin-left: .3vw;
+        border: solid 1px;
+        position: relative;
+        border-radius: 5px;
+        text-shadow: 0 0 15px rgba(0, 69, 255, 0.92);
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.panel {
+    margin-top: 1vh;
+    margin-left: 1vh;
+    padding-top: 1vh;
+    margin-right: 1vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-bottom: 1vh;
+    padding-bottom: 3vh;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: rgba(10, 10, 10, 0.6);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.23);
+    & .score-panel {
+        color: #FFF;
+        padding: 1vh;
+        font-size: 3em;
+        border-radius: 10px;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.42);
+        border: solid 3px rgba(255, 255, 255, 0.92);
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.92);
+        & .score-orange {
+            float: right;
+            margin-left: 1vw;
+            margin-right: 1vw;
+            padding-left: 1vw;
+            padding-right: 1vw;
+            border-radius: 10px;
+            padding-bottom: .7vh;
+            border: solid 2px rgba(212, 0, 0, 0.76);
+            background-color: rgba(253, 68, 0, 0.33);
+            & span {
+                color: orange;
+                text-align: left;
+                font-family: PuristaBoldItalic;
+                text-shadow: 0 0 15px rgba(255, 98, 0, 1);
+            }
+        }
+        & .score-blue {
+            float: left;
+            margin-left: 1vw;
+            margin-right: 1vw;
+            padding-left: 1vw;
+            padding-right: 1vw;
+            border-radius: 10px;
+            padding-bottom: .7vh;
+            border: solid 2px rgba(0, 70, 230, 0.28);
+            background-color: rgba(3, 10, 186, 0.76);
+            & span {
+                color: #A2A2FF;
+                text-align: left;
+                font-family: PuristaBoldItalic;
+                text-shadow: 0 0 15px rgba(134, 174, 250, 0.92);
+            }
+        }
+    }
+}
+
+.orange {
+    color: #FFC863;
+    text-shadow: 0 0 5px rgba(255, 0, 0, 0.95);
+}
+.white {
+    color: #FFF;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.65);
+}
+.red {
+    color: #FFA2A2;
+    text-shadow: 0 0 15px rgba(255, 0, 0, 0.92);
+}
+.blue {
+    color: #BDBDFC;
+    text-shadow: 0 0 15px rgba(0, 69, 255, 0.92);
 }
 
 .grid-container {
