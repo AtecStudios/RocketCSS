@@ -185,6 +185,10 @@ li span{
     top: -.3vh;
 }
 
+.container{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
 .team-listing{
     
 }
